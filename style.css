@@ -1,12 +1,10 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
-</style>
 
 body {
   margin: 0;
   padding: 0;
+  background-image: url('./img/back.jpg');
   background-size: cover;
-  background-position: center;
   font-family: 'Raleway'
 }
 
@@ -20,14 +18,85 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
-  border-radius: 25px;
+  border-radius: 20px;
+  padding: 70px 30px;
 }
 
 .avatar {
   width: 100px;
   height: 100px;
-  border-radius: %50;
   position: absolute;
   top: -50px;
   left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.login-box p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.txt {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #383838;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background: #aeaeae;
+  color: #222;
+}
+
+.forget:link {
+  text-decoration: none;
+  color: #bbb;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.forget:visited {
+  text-decoration: none;
+  color: #bbb;
+  font-weight: 300;
+}
+
+.forget:hover {
+  color: #ddd;
+  font-weight: 500;
+}
+
+.forget:active {
+  background: rgba(143, 143, 143, 0.349);
+  border-radius: 7px;
+  color: #2c2c2c;
+  font-weight: 500;
+  text-decoration: underline;
 }
